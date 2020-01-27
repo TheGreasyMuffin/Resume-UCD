@@ -90,7 +90,7 @@ header {
     letter-spacing: 2px;
     font-weight: 300;
 }
-/*header end */
+
 
 .logo {
     background: url("../images/Me-logo.jpg");
@@ -102,7 +102,31 @@ header {
     -mox-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
+/*header end */
 
+/*Section*/
+.bg-color-three-reasons {
+    background-color: grey;
+}
+
+.row-table {
+    display: table;
+
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+    }
+
+.section-heading {
+    font-family: "Arimo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+/*Section end*/
 
 /*hover.css*/
 .hvr-rectangle-out:before{
@@ -126,6 +150,10 @@ h1,h2,h3,h4 {
    font-weight: 300;
    color: #A9A9A9;
 }
+
+.inline-block {
+    display: inline-block;
+}
 /* text/margins/paddings end */
 
 /*footer*/
@@ -134,4 +162,39 @@ footer {
     color: #A9A9A9;
     min-height: 120px;
 }
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #A9A9A9;
+    margin-left: 5px;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #0099FF;
+}
+
+.social-links i {
+    font-size: 30px;
+    color: #A9A9A9;
+    margin-top: 10px;
+    padding-right: 10px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links i:hover {
+    color: #0099FF;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
 /*footer end*/
