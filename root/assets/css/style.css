@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Arimo:100,200,300,400,500,600,700|Muli&display=swap:100,200,300,400,500,600,700");
 
+/*body*/
+
+/*body end*/
+
 /*Header*/
 header {
     margin: 0; 
@@ -136,6 +140,9 @@ header {
 /*hover.css end*/
 
 /* text/margins/paddings */
+.white-text {
+    color: whitesmoke;
+}
 
 h1,h2,h3,h4 {
     margin: 0;
@@ -197,4 +204,14 @@ footer {
     padding: 20px;
 }
 
+.three-reasons-icon {
+    font-size: 28px;
+    color: #0066FF;
+
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
 /*footer end*/
+
