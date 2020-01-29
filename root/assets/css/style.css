@@ -125,7 +125,7 @@ header {
 }
 
 .personal-info-item {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     display: block;
     clear: both;
 }
@@ -142,6 +142,21 @@ header {
      margin: 0;
  }
 
+ .personal-info-item .key {
+     width: 30%; 
+     margin-right: 21px;
+     padding-top: 2px;
+     vertical-align: top;
+ }
+
+ .personal-info-item .key p {
+     font-weight: 700;
+ }
+
+  .personal-info-item .value {
+      position: relative;
+      width: 60%;
+  }
 /*personal info end*/
 
 .row-table {
