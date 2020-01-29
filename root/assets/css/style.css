@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Arimo:100,200,300,400,500,600,700|Muli&display=swap:100,200,300,400,500,600,700");
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
 
 /*body*/
 
@@ -306,7 +307,7 @@ footer {
     left: 2.5em;
     top: 3em;
     display: block;
-    font-family: "Exo", sans-serif;
+    font-family: "Arimo", sans-serif;
     font-weight: 500;
     font-size: 0.8em;
     padding: 0;
@@ -329,3 +330,38 @@ footer {
     margin-bottom: 30px;
 }
 /*work history end*/
+
+/*contact*/
+.bg-color-contact {
+    background-color: grey;
+}
+
+.contact-heading {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 20px
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #A9A9A9;
+
+}
+
+@media(min-width: 992px){
+    .center-form {
+    padding-top: 50px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+ }
+}
+/*contact end*/
